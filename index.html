@@ -1,0 +1,98 @@
+<!--
+ Gamers ID coming soon page
+ Copyright (c) 2018 http://gamers.id
+
+ Gamers ID coming soon page uses:
+ Comingsoon Page by flankerad http://www.flankerworks.com
+ jQuery.html5form by http://www.matiasmancini.com.ar/ for form validation
+ BEBAS NEUE Dharma Type http://dharmatype.com/ 
+ http://www.fontsquirrel.com/license/bebas-neue
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>gamers.id</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="gamers.id - coming soon" />
+        <meta name="keywords" content="gamers.id - coming soon" />
+        <meta name="author" content="gamers.id" />        
+        <link rel="stylesheet" type="text/css" href="css/comingsoon.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            
+            <h1 class="main">Coming Soon<br>
+            <span class="main" style="font-size:0.6em">(replace with your domain)</span></h1>
+			<div class="container">
+				<div class="content">
+					<h2 class="frame1">Get Ready</h2>
+					<h2 class="frame2">For</h2>
+					<h2 class="frame3">Ultimate</h2>
+					<h2 class="frame4">Gaming Experience</h2>
+					<h2 class="frame5"><span class="frame6">GAMERS</span><span class="frame7">.</span><span class="frame8">ID</span></h2>
+				</div>
+			</div>
+             <span class="author">copyright <a id="author" href="http://www.gamers.id">gamers.id</a></span>
+        </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/html5form.min.js"></script> 
+
+<script type="text/javascript">
+$(function() {
+        $('.frame1').animate({opacity: 1}, 1000, function(){
+
+             $('.frame1').animate({opacity: 0}, 1500, function(){
+
+                 $('.frame2').animate({opacity: 1}, 1000, function(){
+
+                     $('.frame2').animate({opacity: 0}, 1500, function(){
+
+                        $('.frame3').animate({opacity: 1}, 1000, function(){
+
+                            $('.frame3').animate({opacity: 0},1500, function(){
+
+                                 $('.frame4').animate({opacity: 1}, 1000, function(){
+                                     
+                                     $('.frame4').animate({opacity: 0}, 1500, function(){
+
+                                         $('.frame5').animate({opacity: 1}, 0, function(){
+
+                                                $('.frame6').animate({opacity: 1}, 1000);
+
+                                                $('.frame7').animate({opacity: 1}, 2000);
+
+                                                $('.frame8').animate({opacity: 1}, 4000, function(){ 
+
+                                                    $('.main').animate({opacity: 1}, 800, function(){
+                                                        $('#contact-form').animate({opacity: 1}, 1500);                                               
+                                                       
+                                             
+                                                     }); 
+                                               
+                                                 });                                                 
+
+                                             });
+
+                                         }); 
+
+                                     });
+                                                                        
+                                 });
+
+                             }); 
+
+                         });
+
+                     });
+
+                 });
+
+             });
+        });       
+    
+</script>
+</body>
+</html>
